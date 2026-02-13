@@ -1,24 +1,37 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+System requirements
 
-Things you may want to cover:
 
-* Ruby version
+ruby 3.3.6
 
-* System dependencies
+To install and run the program:
 
-* Configuration
+Install ruby
+install bundler
 
-* Database creation
+Download project files from github: git@github.com:tzvaita/stms.git
 
-* Database initialization
+In the terminal, cd to project folder
 
-* How to run the test suite
+Run command: bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+Run command rails server
 
-* Deployment instructions
+In the browser go to different web pages examples below
 
-* ...
+
+
+Link to create User : http://localhost:3000/users/new
+
+Link to create Task : http://localhost:3000/tasks/new
+
+Link to view all tasks: http://localhost:3000/tasks
+
+On all tasks page there is button to view each task individually
+
+On Task page there is task title, task description. There are also 3 buttons
+
+1. Edit task
+2. Delete task
+3. Go back to all tasks
